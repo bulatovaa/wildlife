@@ -236,3 +236,55 @@ body {
 .latest-articles__item-3 {
     background: url("assets/img/latest-article/articles-3.jpg") no-repeat;
 }
+
+.get-notified {
+    padding: 120px 0 240px;
+    background: #CCCCCC; 
+}
+
+.get-notified__title {
+    font-size: 2.7rem;
+    line-height: 4rem;
+    text-align: center;
+    color: #333333;
+
+    margin-bottom: 61px;
+}
+
+.get-notified__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-notified__email {
+    width: 540px;
+    height: 60px;
+    padding: 10px 15px 0;
+
+    background: space;
+    border: 1px solid #666666;
+    border-right: none;
+}
+
+.get-notified__email::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.3rem;
+    line-height: 2.7rem;
+    color: #666666;
+    letter-spacing: 1px;
+}
+
+.get-notified__button {
+    width: 120px;
+    height: 60px;
+    background: #CD6326;
+    border: 1px solid #CD6326;
+    border-radius: 0px 5px 5px 0px;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 2.3rem;
+    line-height: 2.7rem;
+    text-align: center;
+    color: #F7F7F7;
+}
