@@ -156,3 +156,83 @@ body {
 .survival__button:hover {
     background: #E39128;
 }
+
+.latest-articles {
+    padding: 120px 0;
+    background: #CCCCCC;
+}
+
+.latest-articles__title {
+    font-size: 4.8rem;
+    line-height: 7.2rem;
+    text-align: center;
+    color: #333333;
+
+    margin-bottom: 20px;
+}
+
+.latest-articles__subtitle {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    text-align: center;
+    color: #666666;
+
+    margin-bottom: 120px;
+}
+
+.latest-articles__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    display: inline-block;
+    background: url("assets/img/latest-article/arrow.svg") no-repeat;
+    width: 26px;
+    height: 39px;
+    
+    cursor: pointer;
+}
+
+.arrow-right {
+    transform: rotate(180deg);
+}
+
+.card {
+    width: 300px;
+    height: 360px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card__title {
+    font-size: 2.2rem;
+    line-height: 3.6rem;
+    color: #F7F7F7;
+
+    margin-bottom: 10px;
+}
+
+.card__subtitle {
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+    color: #F7F7F7;
+
+    margin-bottom: 40px;
+}
+
+.latest-articles__item-1 {
+    background: url("assets/img/latest-article/articles-1.jpg") no-repeat;
+}
+
+.latest-articles__item-2 {
+    background: url("assets/img/latest-article/articles-2.jpg") no-repeat;
+}
+
+.latest-articles__item-3 {
+    background: url("assets/img/latest-article/articles-3.jpg") no-repeat;
+}
